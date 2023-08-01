@@ -5,19 +5,19 @@ on:
       - main
 # At a minimum, change the variables denoted with a * in the comment in order to ensure uniqueness.
 env:
-  RESOURCEGROUPNAME: "azuremetrics-dotnet" # Azure Resource group's name *
-  LOCATION: "East US" # Azure Resource group's location
+  RESOURCEGROUPNAME: "asp-prom" # Azure Resource group's name *
+  LOCATION: "westus2" # Azure Resource group's location
   IMAGENAME: "azuremetricsdotnet" # Image name *
   REGISTRYSKU: "Standard" # Registry sku
-  REGISTRYNAME: "azuremetricsdotnet" # Container registry name *
-  REGISTRYLOCATION: "East US" # Container registry location
-  CLUSTERNAME: "azuremetricsdotnet" # Cluster name *
-  APPINSIGHTSLOCATION: "East US" # Application insights location
-  CLUSTERLOCATION: "East US" # Cluster location
+  REGISTRYNAME: "aspprom" # Container registry name *
+  REGISTRYLOCATION: "westus2" # Container registry location
+  CLUSTERNAME: "aspprom" # Cluster name *
+  APPINSIGHTSLOCATION: "westus2" # Application insights location
+  CLUSTERLOCATION: "westus2" # Cluster location
   AGENTCOUNT: "2" # Agent count
   AGENTVMSIZE: "Standard_DS2_v2" # Agent VM Size
   KUBERNETESVERSION: 1.19.7 # Kubernetes version
-  OMSLOCATION: "East US" # OMS location
+  OMSLOCATION: "westus2" # OMS location
   OMSWORKSPACENAME: "azuremetricsdotnet" # Name of the OMS workspace *
   HTTPSAPPLICATIONROUTINGENABLED: false
   KUBERNETESAPI: "apps/v1"
