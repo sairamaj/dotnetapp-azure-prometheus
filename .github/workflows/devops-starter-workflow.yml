@@ -16,7 +16,7 @@ env:
   CLUSTERLOCATION: "westus2" # Cluster location
   AGENTCOUNT: "2" # Agent count
   AGENTVMSIZE: "Standard_DS2_v2" # Agent VM Size
-  KUBERNETESVERSION: 1.19.7 # Kubernetes version
+  KUBERNETESVERSION: 1.24 # Kubernetes version
   OMSLOCATION: "westus2" # OMS location
   OMSWORKSPACENAME: "azuremetricsdotnet" # Name of the OMS workspace *
   HTTPSAPPLICATIONROUTINGENABLED: false
